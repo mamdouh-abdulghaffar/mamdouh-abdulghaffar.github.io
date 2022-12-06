@@ -9,7 +9,7 @@
 }
 header {
     background-color: #f0f0f0;
-    width: 100%;
+    max-width: 100%;
     position: fixed;
     z-index: 999;
     display: flex;
@@ -42,7 +42,7 @@ section{
 }
 
 .main{
-    width: 100%;
+    max-width: 100%;
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -99,7 +99,7 @@ section{
 }
 .card{
     background-color: #f0f0f0;
-    width: 30%;
+    max-width: 30%;
     box-shadow: 0 5px 25px rgba(255 255 255 /15%);
     border-radius: 10px;
     padding: 25px;
@@ -139,7 +139,7 @@ section{
     background-color:#fff;
     border: 1px solid #fff;
     min-height: 14em;
-    width: 23em;
+    max-width: 23em;
     overflow: hidden;
     border-radius: 10px;
     margin: 20px;
@@ -155,7 +155,7 @@ section{
 }
 
 .project-image img{
-    width:100%
+    max-width:100%
 }
 
 .project-info{
